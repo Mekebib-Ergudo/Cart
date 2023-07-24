@@ -1,0 +1,134 @@
+* {
+	margin: 0;
+}
+nav {
+	display: flex;
+	justify-content: center;
+	background-color: rgb(172, 130, 201);
+	align-items: center;
+	color: whitesmoke;
+	height: 5rem;
+}
+.nav-center {
+	display: flex;
+	justify-content: space-between;
+	width: 80vw;
+	align-items: center;
+
+	align-items: center;
+}
+.nav-center h4 {
+	font-size: 2rem;
+}
+.nav-container {
+	display: block;
+	position: relative;
+}
+.cart-icon {
+	font-size: 2.5rem;
+}
+.amount-container {
+	position: absolute;
+	top: -0.85rem;
+	right: -0.85rem;
+	width: 1.75rem;
+	height: 1.75rem;
+	background-color: rgb(196, 145, 80);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 50%;
+}
+.cart {
+	min-height: calc(100vh-5rem);
+	width: 80vw;
+	margin: 0 auto;
+	margin-top: 40px;
+	padding: 2.5rem 0;
+}
+.cart h2 {
+	text-transform: capitalize;
+	text-align: center;
+	margin-bottom: 3rem;
+}
+.empty-cart {
+	text-transform: lowercase;
+	color: cadetblue;
+	text-align: center;
+	font-size: 1.5rem;
+}
+hr {
+	background-color: gray;
+	border-color: transparent;
+}
+.cart footer {
+	margin-top: 5rem;
+	text-align: center;
+}
+.cart-total {
+	margin-top: 1.1rem;
+	text-transform: capitalize;
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 1rem;
+	font-size: 1.1rem;
+}
+.cart-total span {
+	display: inline-block;
+	font-size: 1.1rem;
+	background-color: rgb(146, 98, 190);
+	color: white;
+	padding: 0.25rem 0.5rem;
+	border-color: transparent;
+	border-radius: 0.5rem;
+}
+.cart-item {
+	display: grid;
+	align-items: center;
+	grid-template-columns: auto 1fr auto;
+	column-gap: 1.5rem;
+	margin: 1.5rem 0;
+}
+.cart-item h5 {
+	margin-bottom: 0.5rem;
+	font-weight: 600;
+	letter-spacing: 2px;
+	font-size: 1.5rem;
+}
+
+.cart-item img {
+	width: 8rem;
+	object-fit: contain;
+}
+.remove-btn {
+	display: block;
+	color: rgb(136, 85, 183);
+	cursor: pointer;
+	font-size: 0.95rem;
+	margin-top: 0.375rem;
+	background-color: transparent;
+	border-color: transparent;
+}
+.amount-btn {
+	width: 1.5rem;
+	display: block;
+	color: rgb(122, 80, 161);
+	border-color: transparent;
+	background-color: transparent;
+	border-color: transparent;
+	cursor: pointer;
+	font-size: 1.25rem;
+}
+.amount {
+	font-size: 1.25rem;
+	display: block;
+	text-align: center;
+	margin-left: 9.5px;
+}
+footer button {
+	color: rgb(136, 85, 183);
+	cursor: pointer;
+	font-size: 1.3rem;
+	background-color: transparent;
+	text-transform: capitalize;
+}
